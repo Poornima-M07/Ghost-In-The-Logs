@@ -1,0 +1,8 @@
+2026-06-11 14:30:01 UTC - Security-Auditing - EventID 4624 - Successful Account Logon: User=SYSTEM, LogonType=5
+2026-06-11 14:31:15 UTC - Microsoft-Windows-Sysmon - EventID 1 - Process Creation: ParentImage=C:\Windows\System32\services.exe, Image=C:\Windows\System32\svchost.exe, CommandLine=-k netsvcs
+2026-06-11 14:32:00 UTC - Microsoft-Windows-Time-Service - EventID 35 - Time synchronization successful with time.windows.com
+2026-06-11 14:35:22 UTC - Microsoft-Windows-Sysmon - EventID 1 - Process Creation: ParentImage=C:\Windows\System32\explorer.exe, Image=C:\Windows\System32\cmd.exe, CommandLine=cmd.exe /c "powershell.exe -nop -w hidden"
+2026-06-11 14:35:24 UTC - Microsoft-Windows-Sysmon - EventID 1 - Process Creation: ParentImage=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe, Image=C:\Windows\System32\whoami.exe, CommandLine=whoami
+2026-06-11 14:35:40 UTC - Microsoft-Windows-Sysmon - EventID 1 - Process Creation: ParentImage=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe, Image=C:\Windows\System32\net.exe, CommandLine=net user admin /add
+2026-06-11 14:36:12 UTC - Microsoft-Windows-Sysmon - EventID 3 - Network Connection Detected: ProcessId=4822, Image=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe, SourceIp=192.168.1.45, DestinationIp=185.220.101.5, DestinationPort=443, Protocol=tcp
+2026-06-11 14:40:00 UTC - Microsoft-Windows-Time-Service - EventID 36 - Time service provider periodic status check okay.
